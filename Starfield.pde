@@ -39,7 +39,6 @@ class Particle {
     myAngle=myAngle-.03;
     if ((myX>499&&myX<501)&&(myY>499&&myY<501)) {
       filled=filled+1;
-      System.out.println(filled);
     }
     if (filled>1550) {
       myX=500;
